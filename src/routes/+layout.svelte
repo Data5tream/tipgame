@@ -11,8 +11,7 @@
         <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">TipGame</span>
       </NavBrand>
       <NavUl >
-        <NavLi href="/contact"></NavLi>
-          <DarkMode {btnClass} />
+        <DarkMode {btnClass} />
       </NavUl>
     </Navbar>
     <slot></slot>
